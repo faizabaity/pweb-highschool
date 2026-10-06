@@ -4,7 +4,7 @@ Website sekolah statis untuk SMA Negeri 3 Malang yang dibuat dengan HTML dan CSS
 
 ## Referensi
 
-[](https://sman3-malang.sch.id/)
+[https://sman3-malang.sch.id/](https://sman3-malang.sch.id/)
 
 ## 📌 Gambaran Umum
 
@@ -61,5 +61,5 @@ Website ini menggunakan kombinasi warna biru gelap dan putih dengan gaya formal 
 
 ## 🔗 URL Website
 
-[](https://pweb-highschool.vercel.app/)
+[https://pweb-highschool.vercel.app/](https://pweb-highschool.vercel.app/)
 
