@@ -411,3 +411,312 @@ height: 32px;
         padding-left: 24px;
     }
 }
+
+.jurusan-page {
+    min-height: 100vh;
+    background: #f1f1f1;
+    color: #111;
+}
+
+.jurusan-topbar {
+    background: var(--blue);
+    box-shadow: 0 4px 2px rgba(0,0,0,0.25);
+}
+
+.jurusan-main {
+    width: min(1134px, calc(100% - 40px));
+    margin: 0 auto;
+    padding-top: 61px;
+    padding-bottom: 96px;
+}
+
+.curriculum-intro {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.curriculum-intro h1 {
+    margin: 0;
+    font-size: clamp(34px, 4vw, 48px);
+    line-height: 1.08;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--text);
+    text-transform: none;
+}
+
+.curriculum-intro h1 span {
+    color: var(--blue);
+}
+
+.curriculum-intro p {
+    margin: 16px auto 0;
+    max-width: 1134px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.curriculum-intro p strong {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.curriculum-table-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.curriculum-table {
+    width: 100%;
+    max-width: 920px;
+    border-collapse: collapse;
+    border: 1px solid #5b5b5b;
+    background: #ddd;
+    box-shadow: none;
+}
+
+.curriculum-table th,
+.curriculum-table td {
+    border: 1px solid #5b5b5b;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #000;
+}
+
+.curriculum-table th {
+    background: rgba(255,255,255,0.05);
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.curriculum-table td {
+    background: rgba(255,255,255,0.05);
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.jurusan-footer {
+    background: var(--blue);
+    color: #fff;
+    padding: 42px 0 64px;
+    text-align: center;
+}
+
+.jurusan-footer .copyright {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.jurusan-footer .socials {
+    margin-top: 22px;
+    justify-content: center;
+}
+
+.jurusan-footer .socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+}
+
+.jurusan-footer .socials img {
+    width: 32px;
+    height: 32px;
+}
+
+.kontak-page {
+    min-height: 100vh;
+    background: #f3f3f3;
+    color: var(--text);
+}
+
+.kontak-main {
+    width: min(1100px, calc(100% - 60px));
+    margin: 0 auto;
+    padding: 66px 0 95px;
+}
+
+.kontak-title {
+    margin: 0 0 48px;
+    text-align: center;
+    font-size: clamp(42px, 4vw, 66px);
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--text);
+}
+
+.kontak-title .accent {
+    color: var(--blue);
+}
+
+.kontak-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 82px;
+    flex-wrap: wrap;
+}
+
+.contact-form-panel {
+    width: min(100%, 560px);
+    background: rgba(129, 128, 186, 0.52);
+    border: 1px solid rgba(47, 49, 139, 0.2);
+    border-radius: 0;
+    padding: 18px 20px 20px;
+    box-shadow: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.85);
+    color: #4d4d4d;
+    font-size: 16px;
+    padding: 18px 18px;
+    box-shadow: inset 0 0 0 1px rgba(17, 17, 17, 0.08);
+    font-family: inherit;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #5d5d5d;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: var(--blue);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    padding: 18px 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    min-width: 300px;
+}
+
+.info-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.info-row .icon {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blue);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.info-row .icon img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.info-row svg {
+    width: 28px;
+    height: 28px;
+    display: block;
+    fill: currentColor;
+}
+
+.info-row .label {
+    font-weight: 700;
+    color: var(--text);
+    margin: 0;
+}
+
+.info-row .value {
+    font-weight: 500;
+    color: var(--text);
+    margin: 0;
+}
+
+.info-row strong {
+    font-weight: 700;
+}
+
+@media (max-width: 640px) {
+    .jurusan-main {
+        width: min(100% - 24px, 700px);
+        padding-top: 34px;
+    }
+
+    .curriculum-intro p {
+        font-size: 14px;
+    }
+
+    .curriculum-table {
+        width: min(100%, 496px);
+    }
+
+    .curriculum-table th,
+    .curriculum-table td {
+        font-size: 12px;
+        padding: 8px 6px;
+    }
+
+    .kontak-main {
+        width: min(100% - 24px, 700px);
+        padding-top: 40px;
+        padding-bottom: 52px;
+    }
+
+    .kontak-layout {
+        gap: 32px;
+    }
+
+    .contact-form-panel {
+        padding: 14px 12px 16px;
+    }
+
+    .contact-form button {
+        font-size: 18px;
+    }
+
+    .info-row {
+        font-size: 16px;
+    }
+}
